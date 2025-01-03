@@ -1,0 +1,28 @@
+.info {
+    margin: auto;
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(225, 225, 225, .5);
+    width: 50%;
+    min-height: 300px; /* Add min-height for better display */
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(40px); /* Reduced blur radius for better visual effect */
+}
+input {
+    padding: 4px;
+    width: 80%; /* Increased width for better usability */
+    height: 30px; /* Increased height for better usability */
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px; /* Added margin for spacing */
+
+}
+body {
+    background-image: url(Q2.jpg);
+    font-family: sans-serif; /* Added a font for better readability */
+    background-size: cover;
+}
+
