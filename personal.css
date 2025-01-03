@@ -24,6 +24,7 @@ body {
     background-image: url(Q2.jpg);
     font-family: sans-serif; /* Added a font for better readability */
     background-size: cover;
+    background-repeat: no-repeat;
 }
 @media only screen and (max-width: 600px){
     input {
@@ -34,6 +35,9 @@ body {
     }
     label {
         font-size: 10px;
+    } 
+    body {
+        background-size: 100vw 100vh;
     } 
 }
 
