@@ -21,7 +21,7 @@ li a {
     font-family: "Poppins", serif;
     font-weight: 900;
     font-style: italic;
-    
+    display: inline-block;  
 }
 img {
     border-radius: 50%;
@@ -92,6 +92,11 @@ body {
         margin-left: 40px;
         width: 65%;
         padding: 5px;
+    }
+    li a {
+        font-size: 5px;
+        padding: 0px; 
+        display: contents; 
     }
 }
 p {
