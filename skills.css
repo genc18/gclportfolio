@@ -28,3 +28,14 @@ h1 {
     text-align: center;
     color: white;
 }
+@media only screen and (max-width: 600px){
+    h1 {
+       font-size: 20px;
+    }
+    .skills img:hover {
+        width: 90%;
+    }
+    .skills img {
+        width: 5%;
+    }
+}
