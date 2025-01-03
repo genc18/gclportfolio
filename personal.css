@@ -25,4 +25,15 @@ body {
     font-family: sans-serif; /* Added a font for better readability */
     background-size: cover;
 }
+@media only screen and (max-width: 600px){
+    input {
+       font-size: 5px;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    label {
+        font-size: 10px;
+    } 
+}
 
